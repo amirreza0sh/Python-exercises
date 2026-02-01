@@ -11,5 +11,9 @@
 # نابرابر → !=
 
 x = 125
-y = 120
+def new_func():
+    y = 120
+    return y
+
+y = new_func()
 print(x > y)
